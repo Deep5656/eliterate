@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: skyblue;
+    }
+
+    .welcomepage {
+        background-color: ivory;
+        /* height: 90vh; */
+        /* width: 80%; */
+        padding: 100px;
+        margin: 25px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .welcomelandingpage {
+        border: 1px solid black;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 45%;
+        /* background-color:skyblue; */
+
+    }
+
+    .welcomelandingpage1 {
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin: 10px;
+        width: 45%;
+        background-color: ivory;
+
+    }
+
+    .unordered {
+        padding: 20px;
+        background-color: ivory;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+
+    .list {
+        background-color: ivory;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+    #welcomeheading{
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        padding: 70px;
+        /* background-color:skyblue; */
+        font-size: 35px;
+
+
+    }
+    .landingpage{
+        /* height: 200px; */
+        width: 85%;
+        margin: 30px;
+        padding: 10px;
+        /* border: 2px solid black; */
+        font-family: 'Quicksand', sans-serif;
+        /* background-color:skyblue; */
+        
+    }
+    .eliterate{
+        padding: 5px;
+        font-size: 65px;
+        text-align: center;
+        /* border: 2px solid red; */
+    /* background-image: linear-gradient(0deg,white,skyblue); */
+        
+        color: blue;
+
+    }
+    .jeemains{
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        padding: 5px;
+    /* background-image: linear-gradient(0deg,white,skyblue); */
+    }
+
+
+
+    /* for mobile view */
+
+    @media(max-width:1024px){
+        .welcomelandingpage{
+            width: 100%;
+             margin: 0; 
+            padding:0;
+    /* background-image: linear-gradient(0deg,white,skyblue); */
+
+        }
+        .welcomelandingpage1{
+            width: 100%;
+             margin: 0; 
+            padding:0;
+        }
+        .welcomepage{
+            /* width: 100%; */
+            padding: 20px;
+        }
+        .eliterate{
+            font-size: 30px;
+            margin: 0;
+        }
+        .landingpage{
+            width: 75%;
+        }
+        #welcomeheading{
+            font-size: 30px;
+            padding: 30px;
+        }
+    }
+</style>
+
+<body>
+    <div class="welcomepage">
+        <!-- <h1>Welcome to the Eliterarte test series</h1> -->
+        <div class="welcomelandingpage">
+            <h1 id='welcomeheading'>WELCOME TO </h1>
+            <div class="landingpage">
+                <h1 class='eliterate'>E-LITERATE</h1>
+            </div>
+            <p class='jeemains'>JEE MAINS</p>
+            <h1 class='jeemains'>Test-Series</h1>
+            <p class='jeemains'>part-1</p>
+        </div>
+        <div class="welcomelandingpage1">
+            <h1 class='list'>Instructions</h1>
+            <ul class="unordered">
+                <li class="list"><span>If option once selected can be changed but can't be left.</span></li>
+                <li class="list">Total duration of this test is <span
+                        style='font-weight: bold;background-color: ivory;'>180 minutes</span>.</li>
+                <li class="list">There will be only<span style='font-weight: bold;background-color: ivory;'>75
+                        Questions</span> in this test. </li>
+                <li class="list">There are <span style='font-weight: bold;background-color: ivory;'>3 sections</span>in
+                    the question paper consisting of Physics,Chemistry and Mathematics having <span
+                        style='font-weight: bold;background-color: ivory;'>25 questions</span> in each section.</li>
+                <li class="list">Question No. <span style='font-weight: bold;background-color: ivory;'>1 to 20</span> in
+                    each section are <span style='font-weight: bold;background-color: ivory;'>Single Choice Type
+                    </span>questions which are alloted <span
+                        style='font-weight: bold;background-color: ivory;color:green'>4 (FOUR)
+                        marks</span> for each question answered correctly and <span
+                        style='font-weight: bold;background-color: ivory;color:red'>1(one) mark</span> will be deducted
+                    for
+                    indicating incorrect responce.</li>
+                <li class="list">Question No.<span style='font-weight: bold;background-color: ivory;'>21 to 25,41 to
+                        45 and 71 to 75 </span>in
+                    respected section are<span style='font-weight: bold;background-color: ivory;'>Subjective Numerical
+                        Type</span> questions which are alloted <span
+                        style='font-weight: bold;background-color: ivory;color:green'>4(Four) marks</span> for each
+                    question
+                    ansered correctly and <span style='font-weight: bold;background-color: ivory;color:red'>0(Zero)
+                        marks</span>
+                    will be deduced for indicating incorrect response.</li>
+                <li class="list"><span style='font-weight: bold;background-color: ivory; color:red'>Note:</span> In
+                    integer Type Questions if the answer comes in decimal then answer will be correct upto 2 decimal
+                    places & no round off answer will be accepted. Ex: if outcome is 7.817 the answer will be 7.81</li>
+                <li class="list">In all the sections,<span style='font-weight: bold;background-color: ivory;'>No
+                        deduction</span> from the total score will be made if no responce is indicated.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

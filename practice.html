@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container my-3">
+        <h3>Contact Us</h3>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name='name' placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Email</label>
+                <input type="email" class="form-control" id="email" name='email' placeholder="Enter Your Email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="name">Phone</label>
+                <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number"
+                    required>
+            </div>
+    
+    
+            <div class="form-group">
+                <label for="desc">How May We Help You?</label>
+                <textarea class="form-control" id="desc" name='desc' rows="3"></textarea>
+            </div>
+            <button id ='button1' type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+
+<script>
+    let button = document.getElementById('button1');
+    button.addEventListener('click', () => {
+        let name = document.getElementById('name');
+        // console.log(name.value.length);
+        let email = document.getElementById('email');
+        // console.log(email.value.length);
+        let phone = document.getElementById('phone');
+        if (name.value.length<= 2) {
+            alert('please fill the form');
+        } else if(email.value.length <=2){
+            alert('please fill your form');
+        }else if(phone.value.length <=2){
+            alert('please fill the form');
+        }else{
+            alert('submitted');
+        }
+    });
+
+</script>
