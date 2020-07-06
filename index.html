@@ -12,9 +12,21 @@
     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        
+        function preloader(){
+            setTimeout(()=>{
+                let preloader = document.getElementById('loading');
+                // console.log(loader);
+                preloader.style.display = 'none';
+            },2000)
+           
+        }
+    </script>
 </head>
 
-<body>
+<body onload='preloader()'>
+    <div id="loading"></div>
     <!-- section-1 -->
     <div class="container">
         <!-- <h1>StartUp</h1> -->
@@ -336,8 +348,16 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-github"></i></a>
         </div>
-
+        <div class="termsandcondition">
+           <h1>2020 &copy; Copyright E-literate. All right reserved</h1>
+           <ul class="termsul">
+               <li><a href='#'>privacy policy</a></li>
+               <li><a href='terms&condition.html'>terms and condition</a></li>
+               <li><a href='#'>services</a></li>
+           </ul>
+        </div>
     </div>
+    
 
 
 
