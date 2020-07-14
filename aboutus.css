@@ -75,6 +75,8 @@
 @media(max-width:760px){
     .teamcontainerchild1{
         height: 300px;
+        width: 90%;
+
     }
     #member-1,#member-4,#member-5,#member-6{
         height: 380px;;
@@ -155,7 +157,7 @@
     transform: perspective(600px) rotateY(0deg);
 }
 .flip-heading{
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
     left: -28px;
     text-align: center;
@@ -196,58 +198,3 @@
     top: -200px;
 }
 
-/* for 3D-fliping of the image */
-
-
-
-
-
-/*  */
-/*  */
-/* for terms and condition */
-/*  */
-/*  */
-.termsandcondition{
-    width: 100%;
-    background:#17202A;
-    color:white;
-    margin:auto;
-    margin-top:200px;
-    border:none;
-    border-radius: 5px;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.termsul{
-    display: flex;
-    padding: 20px;
-    list-style: none;
-}
-.termsul li a{
-    margin: 20px;
-    color:white;
-    text-decoration: none;
-}
-
-
-
-
-
-@media(max-width:1024px){
- 
- /* in mobile view team box */
-
- .teamcontainerchild1{
-     width: 90%;
- }
-
-
- /* for terms and condition in mobile view */
-.termsandcondition{
-    font-size: 10px;
-}
-
-}
