@@ -62,7 +62,7 @@
     margin: 20px;
 }
 .teamcontainerchild1{
-    height:275px; 
+    height:370px; 
     width: 30%; 
     display: inline-block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
@@ -77,13 +77,13 @@
         height: 300px;
     }
     #member-1,#member-4,#member-5,#member-6{
-        height: 250px;;
+        height: 380px;;
     }
     #member-2{
-        height: 290px;
+        height: 420px;
     }
     #member-3{
-        height: 310px;
+        height: 430px;
     }
 }
 .teamcontainerheading{
@@ -95,9 +95,9 @@
 .teamimage{
     position: relative;
     left: 0%;
-    top: -30px;
-    width: 30%;
-    height: 45%;
+    top: -35px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid rgb(8, 120, 165);
     transition: transform 0.8s;
@@ -112,24 +112,24 @@
     
 }
 .backface>.backface-back{
-     height: 120px; 
-     width: 120px; 
+     height: 200px; 
+     width: 200px; 
     border: 5px solid rgb(8, 120, 165);
     border-radius: 50%;
     position: relative;
-    left: 35%;
-    top: -150px;
+    left: 25%;
+    top: -240px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 @media(max-width:760px){
     .backface>.backface-back{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
         position: relative;
-        left: 30%;
-        top: -130px;
+        left: 15%;
+        top: -240px;
     }
 }
 
@@ -167,7 +167,7 @@
 .middle{
     position: relative;
     top: 0%;
-    left: 30%;
+    left: 20%;
 }
 
 .profileicon{
@@ -193,7 +193,7 @@
 }
 .content{
     position: relative;
-    top: -120px;
+    top: -200px;
 }
 
 /* for 3D-fliping of the image */
