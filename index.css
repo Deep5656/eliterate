@@ -777,9 +777,9 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .termsandcondition{
-    width: 95%;
-    background: grey;
-    color: black;
+    width: 100%;
+    background:#17202A;
+    color:white;
     margin:auto;
     margin-top:200px;
     border:none;
@@ -798,6 +798,6 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .termsul li a{
     margin: 20px;
-    color:black;
+    color:white;
     text-decoration: none;
 }

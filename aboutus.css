@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+.container10{
+    height: 110vh;
+    background:  #17202A;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container11{
+    position: relative;
+    top: 10%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+}
+.heading10{
+    padding: 5px;
+}
+
+.heading12{
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+   
+
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* for our team */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.teamcontainer{
+    /* border: 2px solid black;  */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(187, 222, 236);
+    text-align: center;
+    
+}
+.teamcontainerchild{
+    height: 50px;
+    width: 100vw;
+    /* width: 30%; */
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+.teamcontainerchild1{
+    height:275px; 
+    width: 30%; 
+    display: inline-block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(226, 245, 242);
+    
+
+}
+@media(max-width:760px){
+    .teamcontainerchild1{
+        height: 300px;
+    }
+    #member-1,#member-4,#member-5,#member-6{
+        height: 250px;;
+    }
+    #member-2{
+        height: 290px;
+    }
+    #member-3{
+        height: 310px;
+    }
+}
+.teamcontainerheading{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+
+}
+.teamimage{
+    position: relative;
+    left: 0%;
+    top: -30px;
+    width: 30%;
+    height: 45%;
+    border-radius: 50%;
+    border: 5px solid rgb(8, 120, 165);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+.teamimage:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    border: 5px solid rgb(8, 120, 165);
+
+   
+    
+}
+.backface>.backface-back{
+     height: 120px; 
+     width: 120px; 
+    border: 5px solid rgb(8, 120, 165);
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:760px){
+    .backface>.backface-back{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 30%;
+        top: -130px;
+    }
+}
+
+
+.backface-front,.backface-back{
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 0.6s linear;
+}
+.backface-front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.backface-back{
+    background:rgb(187, 222, 236);
+    color: black;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover > .backface-front{
+    transform: perspective(600px) rotateY(-180deg); 
+}
+.card:hover > .backface-back{
+    transform: perspective(600px) rotateY(0deg);
+}
+.flip-heading{
+    font-size: 18px;
+    position: relative;
+    left: -28px;
+    text-align: center;
+    color: black;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.middle{
+    position: relative;
+    top: 0%;
+    left: 30%;
+}
+
+.profileicon{
+    padding: 5px;
+    /* padding-top: -500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin{
+    margin: 0px 5px;
+    color: rgb(8, 120, 165);
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50%;
+
+}
+.margin:hover{
+    background-color: rgb(8, 120, 165);
+    color: white;
+}
+.content{
+    position: relative;
+    top: -120px;
+}
+
+/* for 3D-fliping of the image */
+
+
+
+
+
+/*  */
+/*  */
+/* for terms and condition */
+/*  */
+/*  */
+.termsandcondition{
+    width: 100%;
+    background:#17202A;
+    color:white;
+    margin:auto;
+    margin-top:200px;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.termsul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+.termsul li a{
+    margin: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+@media(max-width:1024px){
+ 
+ /* in mobile view team box */
+
+ .teamcontainerchild1{
+     width: 90%;
+ }
+
+
+ /* for terms and condition in mobile view */
+.termsandcondition{
+    font-size: 10px;
+}
+
+}

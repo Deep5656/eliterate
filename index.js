@@ -296,3 +296,4 @@ if(window.innerWidth<1024){
 console.log(team1,window.innerWidth);
 
 
+
