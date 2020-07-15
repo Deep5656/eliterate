@@ -72,6 +72,7 @@
     
 
 }
+
 @media(max-width:760px){
     .teamcontainerchild1{
         height: 300px;
@@ -108,9 +109,10 @@
 }
 .teamimage:hover{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
-    border: 5px solid rgb(8, 120, 165);
-
-   
+    border: 5px solid rgb(8, 120, 165); 
+}
+#image-1,#image-2{
+    border: 10px solid rgb(8, 120, 165);
     
 }
 .backface>.backface-back{
@@ -159,7 +161,7 @@
 .flip-heading{
     font-size: 25px;
     position: relative;
-    left: -28px;
+    left: -35px;
     text-align: center;
     color: black;
   font-family: 'Quicksand', sans-serif;
