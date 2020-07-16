@@ -4,63 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>payments option</title>
+    <title>Document</title>
     <style>
-        .paymentcontainer {
-            /* border: 2px solid black; */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
 
         }
-        .heading{
+
+        .paymentheading {
             text-align: center;
-            font-family: 'Quicksand', sans-serif;
-
+            margin: 20px 0px;
         }
-
-        .paymentcompany {
-            /* border: 2px solid red; */
+        .paymentcontainer{
+            /* border: 2px solid black; */
             display: flex;
-            flex-direction: row;
-            /* margin: 20px; */
-            justify-content: space-evenly;
-        }
+            flex-wrap: wrap;
 
-        .companyname {
-            font-family: 'Quicksand', sans-serif;
+        }
+        .company{
+            /* border: 2px solid blue; */
+            width: 29%;
+            margin: 20px;
+            text-align: center;
             color: skyblue;
 
         }
-
-        .paymentQR {
-            /* border: 2px solid red; */
-            /* margin: 20px; */
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+        .paymentscanner{
+            margin: 20px 0px;
         }
-
-        .paymentkaro {
+        .payment{
             height: 250px;
             width: 250px;
+        }
+        @media(max-width: 1024px){
+            .company{
+                width: 90%;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="paymentcontainer">
-        <h1 class='heading'>Complete your payment here</h1>
-        <div class="paymentcompany">
-            <h1 class='companyname'>Paytm</h1>
-            <h1 class='companyname'>Google pay</h1>
-            <h1 class='companyname'>Phonepe</h1>
-        </div>
-        <div class="paymentQR">
-            <img src="ganga.jpg" alt="" class='paymentkaro'>
-            <img src="ganga.jpg" alt="" class='paymentkaro'>
-            <img src="ganga.jpg" alt="" class='paymentkaro'>
-        </div>
-
+    <div class="paymentheading">
+        <h1>Complete your payment here</h1>
     </div>
-        <h1 class='heading'>After payment send your screenshot on whatsapp no.- 9140408069</h1>
+    <div class="paymentcontainer">
+          <div class="company">
+              <h1>Paytm</h1>
+              <div class="paymentscanner">
+                  <img src="ganga.jpg" alt="paytm" class='payment'>
+              </div>
+          </div>
+          <div class="company">
+              <h1>Google Pay</h1>
+            <div class="paymentscanner">
+                <img src="ganga.jpg" alt="paytm" class='payment'>
+            </div>
+
+          </div>
+          <div class="company">
+              <h1>Phonepe</h1>
+            <div class="paymentscanner">
+                <img src="ganga.jpg" alt="paytm" class='payment'>
+            </div>
+
+          </div>
+    </div>
+    <div class="paymentheading">
+        <h1>after payment sen us ss</h1>
+    </div>
+
 
 </body>
 
