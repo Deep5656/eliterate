@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    cursor: pointer;
 }
 .navbar {
   overflow: hidden;
@@ -67,7 +68,8 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: tomato;
+  background-color: rgb(2, 4, 29);
+  border-radius: 10px;
 }
 
 .dropdown-content {
@@ -113,15 +115,15 @@
 
 #img{
     position: fixed;
-    top: 2%;
+    top: 3%;
     left: 7%;
-    /* border: 2px solid blue;  */
-    /* margin: 10px; */
-    /* padding: 20px; */
     height: 50px;
     width: 150px;
-    /* border: 2px solid tomato; */
     border-radius:10px;
+    color: white;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+
 
 
 }
@@ -130,9 +132,6 @@
 
     position: absolute;
     top: 50%;
-     /* left: 33%;  */
-    /* color: white; */
-    /* color: #2f2f; */
     width: 100%;
    
 }
@@ -153,7 +152,6 @@
 
 }
 .container2{
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,1); */
     background-image: linear-gradient(90deg,white,skyblue);
     margin: 30px;
     padding: 30px;
@@ -167,7 +165,6 @@
 
 .aboutus{
     margin: 20px;
-    /* padding: 100px; */
 }
 .exambar{
     display: flex;
@@ -216,7 +213,6 @@
     left: 0%;
     height: 100%;
     width: 50%;
-    /* border: 2px solid black;  */
     
 }
 #image3{
@@ -230,7 +226,6 @@
     left: -10%;
     height: 100%;
     width: 50%;
-    /* border: 2px solid black; */
     text-align: center;
     padding-top: 20px;
     padding-left:15px ;
@@ -259,8 +254,6 @@
 .heading3{
     text-align: center;
     color: black;
-    /* background:rgb(255, 173, 173);
-     */
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
     padding: 20px;
@@ -279,11 +272,7 @@
     padding: 10px;
 }
 .container4{
-    /* position: relative;
-    top: 10px; */
-    /* margin: 20px; */
-    left: 0%;
-    /* width: 80%; */
+   left: 0%;
 }
 .heading5{
      margin: 40px; 
@@ -291,17 +280,14 @@
     border: 2px solid black;
     display: inline-block;
     font-family: 'Quicksand', sans-serif;
-    /* width: 90%; */
     text-align: center;
 
 }
 .container6{
-    /* border: 2px solid red; */
-   /* background: tomato; */
    height: 100vh;
    width: 100%;
     white-space: nowrap;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     overflow-x: scroll;
     overflow-y: hidden;
 }

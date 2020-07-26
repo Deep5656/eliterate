@@ -2,16 +2,10 @@
 console.log('this is index.js');
 let exambarhead = document.getElementsByClassName('exambarhead');
 let exambar = document.getElementsByClassName('exambar');
-// console.log(parentGrid,grid,exambar.length);
 Array.from(exambar).forEach(e => {
     console.log(e);
 
     e.addEventListener('click',(elem)=>{
-        // console.log('Deepanshu Katiyar');
-        // let id = document.getElementById(e.target.id);
-        // console.log(elem.target.id);
-        // let targetedElem = document.getElementById(elem.target.id);
-        // console.log(targetedElem);
 
         let upcomingHtml = `
         <div class="grid">
@@ -228,11 +222,6 @@ Array.from(exambar).forEach(e => {
 
         }
 
-        // switch(elem.target.id){
-        //     case 1:
-        //         parentGrid.innerHTML = html;
-
-        // }
         
        
     })
